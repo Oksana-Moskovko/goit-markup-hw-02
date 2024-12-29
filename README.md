@@ -1,2 +1,2 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 Effective Solutions for Your Business homework
