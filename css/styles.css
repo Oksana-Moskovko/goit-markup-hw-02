@@ -25,40 +25,38 @@ a {
   color: #4d5ae5;
 
 }
-.brand-name-up {
+
+.header-logo .logo-part {
   color: #2e2f42;
 }
-
+.footer-logo .logo-part {
+  color: #F4F4FD;
+}
 
 .nav-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5nav-link;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .nav-link:hover,
-.nav-link:focus {
-  color: #404BBF;
-}
-.nav-link:active {
-  text-decoration: underline;
-  text-decoration-color: #404BBF;
-  color: #404BBF;
-}
-
-/* address-section*/
-.address-section {
-  color: #434455;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
+.nav-link:focus,
 .address-link:hover,
 .address-link:focus {
   color: #404BBF;
 }
 
+/* address-section*/
+.address-section {
+  font-style: normal;
+}
+.address-link {
+  color: #434455;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
 
 .main-page {
   background-color: #2E2F42;
@@ -77,7 +75,6 @@ a {
 .btn-primary {
   cursor: pointer;
   background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -93,14 +90,13 @@ a {
 /* content-section section 2 */
 .title-benefits {
   font-weight: 500;
-  font-style: normal;
   letter-spacing: 0.02em;
   font-size: 20px;
   line-height: 24px;
+  color: #2e2f42;
 }
 .benefits-text {
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -109,9 +105,11 @@ a {
 
 /*our-team */
 .our-team {
-  background-color: #FFFFFF;
+  background-color: #F4F4FD ;
 }
-
+.our-team-list {
+  background-color: #FFFF;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -124,15 +122,13 @@ a {
 
 .section-team {
   font-weight: 500;
-  font-style: normal;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.team-profession {
+.profession-team {
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   line-height: 24px;
   color: #434455;
@@ -141,10 +137,10 @@ a {
 
 .portfolio {
   font-weight: 500;
-  font-style: normal;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 /*.page-title-hidden
@@ -169,8 +165,5 @@ a {
   background-color:  #2E2F42;
 }
 .footer-copyright {
-  color: #F4F4FD;
-}
-.logo-bottom {
   color: #F4F4FD;
 }
