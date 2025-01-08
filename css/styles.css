@@ -1,10 +1,10 @@
 body {
-    font-family: "Roboto", "Raleway", serif;
-    color: #2E2F42;
-    background-color: #E7E9FC;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 ul, ol {
@@ -17,22 +17,23 @@ a, a:visited, a:hover {
 /*main-menu*/
 .logo-link {
   text-transform: uppercase;
-  font-family: "Raleway", serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
-  color: #2E2F42;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 
 }
-.logo {
-  color: #4D5AE5;
+.brand-name-up {
+  color: #2e2f42;
 }
 
-.main-menu {
-  font-family: "Roboto", serif;
+.menu-studio {
   font-weight: 500;
-  font-style: normal;
-  color: #2E2F42;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .menu-studio:hover,
@@ -45,23 +46,14 @@ a, a:visited, a:hover {
   color: #404BBF;
 }
 
-.main-menu .link{
-  color: #2E2F42;
-}
-.main-menu .link:hover,
-.main-menu .link:focus {
-  color: #404BBF;
-}
-
 /* address-section*/
 .address-section {
   color: #434455;
-  font-family: "Roboto", serif;
   font-weight: 400;
-  font-style: normal;
+  letter-spacing: 0.02em;
 }
-.address-section .link:hover,
-.address-section .link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404BBF;
 }
 
@@ -71,10 +63,11 @@ a, a:visited, a:hover {
 }
 
 .page-title {
-  font-family: "Roboto", serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #FFFFFF;
 }
 
@@ -82,6 +75,11 @@ a, a:visited, a:hover {
 .btn-primary {
   cursor: pointer;
   background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #FFFFFF;
 }
 .btn-primary:hover,
@@ -92,58 +90,59 @@ a, a:visited, a:hover {
 
 /* content-section section 2 */
 .title-benefits {
-  font-family: "Roboto", serif;
   font-weight: 500;
   font-style: normal;
+  letter-spacing: 0.02em;
   font-size: 20px;
   line-height: 24px;
 }
 .benefits-text {
-  font-family: "Roboto", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
 /*our-team */
 .our-team {
-  background-color: #F4F4FD;
+  background-color: #FFFFFF;
 }
 
 .section-title {
-  font-family: "Roboto", serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
-.team {
-  font-family: "Roboto", serif;
+.section-team {
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .team-profession {
-  font-family: "Roboto", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
   color: #434455;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .portfolio {
-  font-family: "Roboto", serif;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 /*.page-title-hidden
@@ -160,7 +159,7 @@ a, a:visited, a:hover {
   }
   
   .roboto-bold {
-    font-family: "Roboto", serif;
+    font-family: "Roboto", serif;низ
     font-weight: 700;
     font-style: normal;} */
 
@@ -170,6 +169,6 @@ a, a:visited, a:hover {
 .footer-copyright {
   color: #F4F4FD;
 }
-.brand-name {
+.logo-bottom {
   color: #F4F4FD;
 }
